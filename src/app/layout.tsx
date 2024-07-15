@@ -27,7 +27,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={cn(openSans.variable, raleway.variable)}>
+			<body
+				className={cn(
+					openSans.variable,
+					raleway.variable,
+					"bg-[url('/bg-desktop.png')]"
+				)}
+			>
 				{children}
 			</body>
 		</html>
