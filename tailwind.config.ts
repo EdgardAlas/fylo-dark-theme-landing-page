@@ -8,6 +8,9 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				raleway: ['var(--raleway)', 'sans-serif'],
+			},
 			screens: {
 				'2xl': '1440px',
 			},
