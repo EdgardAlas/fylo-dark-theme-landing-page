@@ -1,3 +1,9 @@
+import { Header } from '@containers/header';
+
 export default function Home() {
-	return <>hello world</>;
+	return (
+		<main>
+			<Header />
+		</main>
+	);
 }

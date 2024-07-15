@@ -19,6 +19,7 @@
 		],
 		"paths": {
 			"@utils/*": ["./src/utils/*"],
+			"@data/*": ["./src/data/*"],
 			"@libs/*": ["./src/libs/*"],
 			"@containers/*": ["./src/components/containers/*"],
 			"@ui/*": ["./src/components/ui/*"],
