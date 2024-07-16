@@ -9,7 +9,7 @@ export const StayProductive = () => {
 	const [isHovered, setIsHovered] = useState(false);
 
 	return (
-		<section className='flex flex-col mx-8 mt-[134px] gap-10 min-[915px]:flex-row max-w-[1220px] lg:items-start md:mx-auto lg:gap-[51px] md:mt-[115px] px-8 xl:px-0'>
+		<section className='flex flex-col mt-[134px] gap-10 min-[915px]:flex-row max-w-[1220px] lg:items-start md:mx-auto lg:gap-[51px] md:mt-[115px] px-8 xl:px-0'>
 			<Image
 				src={StayProductiveImage}
 				alt='Stay productive'
@@ -63,7 +63,7 @@ export const StayProductive = () => {
 								/>
 							</filter>
 						</defs>
-						<g fill='none' fill-rule='evenodd'>
+						<g fill='none' fillRule='evenodd'>
 							<g transform='translate(2 2)'>
 								<use fill='#000' filter='url(#a)' xlinkHref='#b' />
 								<use fill={isHovered ? '#fff' : '#62E0D9'} xlinkHref='#b' />
