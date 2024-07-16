@@ -14,6 +14,7 @@ const config: Config = {
 			},
 			screens: {
 				'2xl': '1440px',
+				'2.5xl': '1441px',
 			},
 			colors: {
 				theme: {

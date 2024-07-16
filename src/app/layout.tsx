@@ -1,7 +1,6 @@
+import clsx from 'clsx';
 import type { Metadata } from 'next';
 import { Open_Sans, Raleway } from 'next/font/google';
-
-import { cn } from '@libs/cn';
 
 import './globals.css';
 
@@ -28,10 +27,10 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body
-				className={cn(
+				className={clsx(
 					openSans.variable,
 					raleway.variable,
-					"bg-[url('/bg-mobile.png')] md:bg-[url('/bg-desktop.png')] bg-no-repeat bg-cover bg-[0_280px] min-[376px]:bg-[0_50vh]  md:bg-[0_848px]"
+					"bg-[url('/bg-mobile.png')] md:bg-[url('/bg-desktop.png')] bg-no-repeat bg-[0_280px] sm:bg-[0_70vh] md:bg-[0_848px] max-md:bg-cover 2.5xl:bg-cover"
 				)}
 			>
 				{children}

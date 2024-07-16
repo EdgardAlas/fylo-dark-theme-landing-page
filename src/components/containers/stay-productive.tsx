@@ -9,21 +9,21 @@ export const StayProductive = () => {
 	const [isHovered, setIsHovered] = useState(false);
 
 	return (
-		<section className='flex flex-col mt-[134px] gap-10 min-[915px]:flex-row max-w-[1220px] lg:items-start md:mx-auto lg:gap-[51px] md:mt-[115px] px-8 xl:px-0'>
+		<section className='flex flex-col mt-[8.375rem] gap-10 min-[915px]:flex-row max-w-[76.25rem] lg:items-start md:mx-auto lg:gap-[3.1875rem] md:mt-[7.1875rem] px-8 xl:px-0'>
 			<Image
 				src={StayProductiveImage}
 				alt='Stay productive'
-				className='self-center   md:max-w-[400px] lg:max-w-[500px] xl:max-w-[640px]'
+				className='self-center   md:max-w-[25rem] lg:max-w-[31.25rem] xl:max-w-[40rem]'
 			/>
-			<section className='grid gap-4 lg:mt-[120px]'>
-				<h2 className='text-[18px] font-bold leading-6 font-raleway md:text-[40px] md:leading-[50px] text-balance'>
+			<section className='grid gap-4 lg:mt-[7.5rem]'>
+				<h2 className='text-[1.125rem] font-bold leading-6 font-raleway md:text-[2.5rem] md:leading-[3.125rem] text-balance'>
 					Stay productive, wherever you are
 				</h2>
-				<p className='text-[14px] leading-[21px] md:text-[16px] md:leading-6'>
+				<p className='text-[0.875rem] leading-[1.3125rem] md:text-[1rem] md:leading-6'>
 					Never let location be an issue when accessing your files. Fylo has you
 					covered for all of your file storage needs.
 				</p>
-				<p className='text-[14px] leading-[21px] md:text-[16px] md:leading-6'>
+				<p className='text-[0.875rem] leading-[1.3125rem] md:text-[1rem] md:leading-6'>
 					Securely share files and folders with friends, family and colleagues
 					for live collaboration. No email attachments required!
 				</p>
@@ -32,7 +32,7 @@ export const StayProductive = () => {
 					onMouseEnter={() => setIsHovered(true)}
 					onMouseLeave={() => setIsHovered(false)}
 					href='#'
-					className='text-[#62E0D9] inline-flex text-[12px] items-center gap-2 border-b border-[#62E0D9] self-start hover:text-white hover:border-white justify-self-start md:text-[16px] md:mt-2 [&_svg]:fill-[#62E0D9]'
+					className='text-[#62E0D9] inline-flex text-[0.75rem] items-center gap-2 border-b border-[#62E0D9] self-start hover:text-white hover:border-white justify-self-start md:text-[1rem] md:mt-2 [&_svg]:fill-[#62E0D9]'
 				>
 					<span>See how Fylo works</span>
 					<svg
