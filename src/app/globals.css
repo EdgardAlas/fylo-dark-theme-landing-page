@@ -10,5 +10,5 @@
 
 body {
 	font-family: var(--open-sans);
-	@apply bg-theme-blue-dark-main text-theme-neutral-white;
+	@apply bg-theme-blue-dark-intro text-theme-neutral-white;
 }

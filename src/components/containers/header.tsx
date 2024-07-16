@@ -5,7 +5,7 @@ import logo from '@assets/logo.svg?url';
 
 export const Header = () => {
 	return (
-		<header className='min-h-6 px-5 p-6 flex items-center justify-between sm:px-[80px] sm:pt-[73px] bg-theme-blue-dark-intro'>
+		<header className='min-h-6 px-5 p-6 flex items-center justify-between sm:px-[80px] sm:pt-[73px] '>
 			<section className='relative h-6 w-20 sm:h-[52px] sm:w-[176px]'>
 				<Image src={logo} alt='logo' fill />
 			</section>
