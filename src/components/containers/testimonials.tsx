@@ -5,8 +5,8 @@ import quotes from '@assets/bg-quotes.png';
 
 export const Testimonials = () => {
 	return (
-		<section className='mx-auto mt-[172px] relative grid gap-5 md:grid-cols-3 max-w-[1160px] md:px-12 place-content-center max-md:max-w-[280px] xl:px-0'>
-			<section className='absolute w-5 h-5 -top-4 left-2 md:w-14 md:h-14 md:-top-10 md:left-12 xl:-left-2 z-10 '>
+		<section className='mx-auto mt-[172px] relative grid gap-5 md:grid-cols-3 max-w-[1160px] md:px-12 place-content-center max-md:max-w-[280px] xl:px-0 mb-[335px]'>
+			<section className='absolute w-5 h-5 -top-4 left-2 md:w-14 md:h-14 md:-top-10 md:left-12 xl:-left-2 z-10'>
 				<Image src={quotes} alt='quotes' fill />
 			</section>
 			{testimonials.map((testimonial, index) => (
