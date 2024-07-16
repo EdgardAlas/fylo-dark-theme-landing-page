@@ -24,7 +24,7 @@ export const HeroBanner = () => {
 						Access them wherever you need, share and collaborate with friends
 						family, and co-workers.
 					</p>
-					<button className='w-[240px] h-12 rounded-[24px] md:rounded-[28px] mx-auto mt-8 bg-gradient-to-r from-theme-accent-cyan to-theme-accent-blue md:w-[280px] md:h-14'>
+					<button className='w-[240px] h-12 rounded-[24px] md:rounded-[28px] mx-auto mt-8 bg-gradient-to-r from-theme-accent-cyan to-theme-accent-blue md:w-[280px] md:h-14 hover:!to-[#8ADAE3]'>
 						<span className='font-bold font-raleway text-[14px] md:text-[16px]'>
 							Get Started
 						</span>

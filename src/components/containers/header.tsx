@@ -12,7 +12,10 @@ export const Header = () => {
 
 			<ul className='flex-1 flex justify-end gap-[25px] mr-[5px] sm:gap-[58px]'>
 				{headerLinks.map((link, index) => (
-					<li key={index} className='text-[12px] font-raleway sm:text-base'>
+					<li
+						key={index}
+						className='text-[12px] font-raleway sm:text-base hover:fake-bold hover:border-b-[1px] hover:border-b-white'
+					>
 						<a href={link.href}>{link.title}</a>
 					</li>
 				))}

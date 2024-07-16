@@ -6,6 +6,10 @@
 	.text-balance {
 		text-wrap: balance;
 	}
+
+	.fake-bold {
+		text-shadow: 1px 0 0 currentColor;
+	}
 }
 
 body {
