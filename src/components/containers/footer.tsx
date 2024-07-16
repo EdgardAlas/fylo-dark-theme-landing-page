@@ -1,5 +1,5 @@
+import { footerLinks } from '@data/footer';
 import Image from 'next/image';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 import { FooterForm } from '@containers/footer-form';
 
@@ -10,7 +10,7 @@ import logo from '@assets/logo.svg?url';
 
 export const Footer = () => {
 	return (
-		<footer className=' bg-theme-blue-dark-footer'>
+		<footer className=' bg-theme-blue-dark-footer pb-8'>
 			<FooterForm />
 			<section className='px-[1.875rem] xl:px-0 grid -mt-[5.625rem] gap-10  max-w-[77.5rem] mx-auto'>
 				<section className='relative w-[6.75rem] h-[1.9375rem] '>
@@ -67,71 +67,37 @@ export const Footer = () => {
 					</ul>
 
 					<ul className='flex flex-col gap-3 w-[4.3125rem]'>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>About Us</p>
-							</a>
-						</li>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Jobs</p>
-							</a>
-						</li>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Press</p>
-							</a>
-						</li>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Blog</p>
-							</a>
-						</li>
+						{footerLinks.company.map(({ name, link }) => (
+							<li key={name}>
+								<a href={link} className='flex gap-6 items-center'>
+									<p>{name}</p>
+								</a>
+							</li>
+						))}
 					</ul>
 
 					<ul className='flex flex-col gap-3 w-[5.4375rem]'>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Contact Us</p>
-							</a>
-						</li>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Terms</p>
-							</a>
-						</li>
-						<li>
-							<a href='#' className='flex gap-6 items-center'>
-								<p>Privacy</p>
-							</a>
-						</li>
+						{footerLinks.contact.map(({ name, link }) => (
+							<li key={name}>
+								<a href={link} className='flex gap-6 items-center'>
+									<p>{name}</p>
+								</a>
+							</li>
+						))}
 					</ul>
 
 					<ul className='flex gap-3 md:w-[5.4375rem] max-sm:justify-center pb-8'>
-						<li>
-							<a
-								href='#'
-								className='flex gap-6 items-center border rounded-[50%] size-8 justify-center hover:text-[#62E0D9] hover:border-[#62E0D9]'
-							>
-								<FaFacebookF />
-							</a>
-						</li>
-						<li>
-							<a
-								href='#'
-								className='flex gap-6 items-center border rounded-[50%] size-8 justify-center hover:text-[#62E0D9] hover:border-[#62E0D9]'
-							>
-								<FaTwitter />
-							</a>
-						</li>
-						<li>
-							<a
-								href='#'
-								className='flex gap-6 items-center border rounded-[50%] size-8 justify-center hover:text-[#62E0D9] hover:border-[#62E0D9]'
-							>
-								<FaInstagram />
-							</a>
-						</li>
+						{footerLinks.social.map(({ name, link, icon: Icon }) => (
+							<li key={name}>
+								<a
+									href={link}
+									area-label={name}
+									className='flex gap-6 items-center border rounded-[50%] size-8 justify-center hover:text-[#62E0D9] hover:border-[#62E0D9]'
+								>
+									<Icon />
+								</a>
+							</li>
+						))}
 					</ul>
 				</section>
 			</section>
