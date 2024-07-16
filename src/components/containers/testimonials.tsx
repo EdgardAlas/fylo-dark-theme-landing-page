@@ -13,6 +13,9 @@ export const Testimonials = () => {
 				<article
 					className='flex flex-col justify-center gap-[1.0625rem] bg-theme-blue-dark-testimonials px-5 py-6 rounded-[0.25rem] z-20 relative md:pt-12  md:max-w-[22.5rem] md:px-8'
 					key={index}
+					style={{
+						boxShadow: '0 0 8px 4px rgba(56, 56, 56, 0.0459)',
+					}}
 				>
 					<p className='text-[0.625rem] leading-[1.125rem] md:text-[0.875rem] md:leading-[1.3125rem]'>
 						{testimonial.text}

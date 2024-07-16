@@ -10,7 +10,7 @@ import logo from '@assets/logo.svg?url';
 
 export const Footer = () => {
 	return (
-		<footer className=' bg-theme-blue-dark-footer pb-8'>
+		<footer className=' bg-theme-blue-dark-footer pb-[4.375rem]'>
 			<FooterForm />
 			<section className='px-[1.875rem] xl:px-0 grid -mt-[5.625rem] gap-10  max-w-[77.5rem] mx-auto'>
 				<section className='relative w-[6.75rem] h-[1.9375rem] '>
