@@ -30,7 +30,7 @@ export default function RootLayout({
 				className={clsx(
 					openSans.variable,
 					raleway.variable,
-					"bg-[url('/bg-mobile.png')] md:bg-[url('/bg-desktop.png')] bg-no-repeat bg-[0_280px] sm:bg-[0_70vh] md:bg-[0_848px] max-md:bg-cover 2.5xl:bg-cover"
+					"bg-[url('/bg-mobile.png')] md:bg-[url('/bg-desktop.png')] bg-no-repeat bg-[0_17.5rem] sm:bg-[0_70vh] md:bg-[0_53rem] max-md:bg-cover 2.5xl:bg-cover"
 				)}
 			>
 				{children}

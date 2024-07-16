@@ -1,4 +1,5 @@
 import { Features } from '@containers/features';
+import { Footer } from '@containers/footer';
 import { Header } from '@containers/header';
 import { HeroBanner } from '@containers/hero-banner';
 import { StayProductive } from '@containers/stay-productive';
@@ -12,6 +13,7 @@ export default function Home() {
 			<Features />
 			<StayProductive />
 			<Testimonials />
+			<Footer />
 		</main>
 	);
 }

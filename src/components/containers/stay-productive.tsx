@@ -13,7 +13,7 @@ export const StayProductive = () => {
 			<Image
 				src={StayProductiveImage}
 				alt='Stay productive'
-				className='self-center   md:max-w-[25rem] lg:max-w-[31.25rem] xl:max-w-[40rem]'
+				className='self-center md:max-w-[25rem] lg:max-w-[31.25rem] xl:max-w-[38.375rem] shrink-0'
 			/>
 			<section className='grid gap-4 lg:mt-[7.5rem]'>
 				<h2 className='text-[1.125rem] font-bold leading-6 font-raleway md:text-[2.5rem] md:leading-[3.125rem] text-balance'>

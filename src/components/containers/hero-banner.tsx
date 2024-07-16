@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { Button } from '@ui/button';
+
 import HeroImage from '@assets/illustration-intro.png';
 
 export const HeroBanner = () => {
@@ -24,11 +26,9 @@ export const HeroBanner = () => {
 						Access them wherever you need, share and collaborate with friends
 						family, and co-workers.
 					</p>
-					<button className='w-[15rem] h-12 rounded-[1.5rem] md:rounded-[1.75rem] mx-auto mt-8 bg-gradient-to-r from-theme-accent-cyan to-theme-accent-blue md:w-[17.5rem] md:h-14 hover:!to-[#8ADAE3]'>
-						<span className='font-bold font-raleway text-[0.875rem] md:text-[1rem]'>
-							Get Started
-						</span>
-					</button>
+					<Button className='w-[15rem] h-12 mt-8 md:w-[17.5rem] md:h-14 mx-auto'>
+						Get Started
+					</Button>
 				</section>
 			</section>
 		</section>
